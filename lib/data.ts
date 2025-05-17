@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import feedbackWfImg from "@/public/feedbackWf.png";
+import hiveImg from "@/public/hive.png";
+import gretaImg from "@/public/greta.png";
 
 export const links = [
   {
@@ -35,52 +35,80 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Mechanical Engineering",
+    location: "Sikkim Manipal Institue of Technology",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Finished my mechanical‑engineering degree and spent some time preparing for PCS government exams.",
     icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Operations specialist",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Worked online for two years handling day‑to‑day operations and team support.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Career Accelator Program by MASAI SCHOOL",
+    location: "remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Jump‑started my software journey: learned React, Next.js, Node.js, Express, MongoDB and TypeScript. Earned two scholarships and qualified for Masai placement drives.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - 2024",
+  },
+  {
+    title: "Full Stack Developer Intern, Questera",
+    location: "Remote",
+    description:
+      "Spent 10 months building and improving web apps as a full‑stack developer intern.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - 2025",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Feedback Workflow App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a frontend developer on this project. It was my very first project at Quest labs which is Questera now. Users can give public feedback to companies. It was ranked as 4th product of the day on producthunt.",
+    tags: [
+      "React",
+      "Tailwind",
+      "Jotai",
+      "Sentry",
+      "@questlabs/react-sdk",
+      "Framer-Motion",
+    ],
+    imageUrl: feedbackWfImg,
+    link: "https://www.producthunt.com/products/plgos#feedback-flows",
   },
   {
-    title: "rmtDev",
+    title: "Hive - Internal Team Management Tool",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "When I joined the company, they were using using ClickUp, but later they decided to use their own. It was my first fullstack project, which is still being used in Questera.",
+    tags: [
+      "React",
+      "Node.js",
+      "Jotai",
+      "Express",
+      "MongoDB",
+      "@questlabs/react-sdk",
+      "Framer-Motion",
+      "Tailwind",
+      "Mongoose",
+    ],
+    imageUrl: hiveImg,
+    link: "https://hive.plgos.com/",
   },
   {
-    title: "Word Analytics",
+    title: "Greta - AI Website Generator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "During Diwali, we had a intra company Hackathon. Our team of 3 developers built a website generator, which later went through much more enhancements and became our compnay's official product. OpenAI's 4.o model is used for creating websites. User would input a single prompt and it can generate and deploy the wesites.",
+    tags: ["React", "OpenAI", "Node", "Express", "Tailwind", "Framer-Motion"],
+    imageUrl: gretaImg,
+    link: "https://greta.questera.ai/",
   },
 ] as const;
 
@@ -94,14 +122,14 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Mongoose",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
+  "Web Sockets",
   "Framer Motion",
+  "OpenAI",
+  "Claude",
+  "Gemini",
 ] as const;
