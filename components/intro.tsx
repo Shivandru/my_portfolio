@@ -56,30 +56,22 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-
-      {/* <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hello, I'm Shivandru.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">10 months</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
-      </motion.h1> */}
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Shivandru.</span> I'm a{" "}
-        <span className="font-bold">MERN stack developer</span> with{" "}
-        <span className="font-bold">10 months</span> of hands-on experience. I
-        enjoy building <span className="italic">modern web apps</span> and
-        working with <span className="underline">Next.js, TypeScript,</span> and{" "}
-        <span className="underline">AI agents</span> powered by models like
-        OpenAI, Claude, and Gemini.
+        <span className="font-bold">Hello, I’m Shivandru.</span> I’m a{" "}
+        <span className="font-bold">Full-Stack MERN Developer</span> with{" "}
+        <span className="font-bold">10 months</span> of experience, currently
+        working as a <span className="font-bold">Backend Developer</span> in the{" "}
+        <span className="italic">game development</span> space. I build
+        scalable, real-time systems using{" "}
+        <span className="underline">Node.js, Redis, WebSockets</span>, and craft
+        modern interfaces with{" "}
+        <span className="underline">React and Next.js</span>. I also work with{" "}
+        <span className="underline">AI-driven systems</span> using OpenAI,
+        Gemini, and LangGraph.
       </motion.h1>
 
       <motion.div

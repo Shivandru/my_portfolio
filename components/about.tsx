@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      {/* <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Mechanical Engineering</span>, I
         discovered a strong interest in technology and started learning to code.
@@ -42,6 +42,33 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, you’ll usually find
         me at the gym, cooking something new, or playing video games. I also
         enjoy exploring new ideas and keeping up with the latest in tech and AI.
+      </p> */}
+      <p className="mb-3">
+        After graduating with a degree in{" "}
+        <span className="font-medium">Mechanical Engineering</span>, I developed
+        a strong interest in technology and began learning to code. Over time, I
+        grew into a{" "}
+        <span className="font-medium">Full-Stack MERN Developer</span> and
+        started working with{" "}
+        <span className="font-medium">AI-driven systems</span> using models like
+        OpenAI, Claude, and Gemini. I enjoy solving real-world problems through
+        code and building scalable, user-focused applications.
+      </p>
+
+      <p className="mb-3">
+        My core stack includes{" "}
+        <span className="font-medium">
+          React, Next.js, Node.js, MongoDB, and TypeScript
+        </span>
+        , and I currently work more on the backend, building real-time and
+        data-driven systems using Redis, WebSockets, and cloud services.
+      </p>
+
+      <p>
+        <span className="italic">When I’m not coding</span>, you’ll usually find
+        me at the gym, cooking something new, or playing video games. I also
+        enjoy exploring new ideas and staying up to date with developments in
+        tech and AI.
       </p>
     </motion.section>
   );
