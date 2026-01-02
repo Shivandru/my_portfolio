@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import feedbackWfImg from "@/public/feedbackWf.png";
 import hiveImg from "@/public/hive.png";
 import gretaImg from "@/public/greta.png";
+import mixpanelImg from "@/public/mixpanel_ai_pic.png";
 
 export const links = [
   {
@@ -67,7 +68,8 @@ export const experiencesData = [
     date: "2024 - 2025",
   },
   {
-    title: "Node.js Backend Developer, TerraByte Solutions - Game",
+    title:
+      "Node.js Backend Developer, TerraByte Technologies Private Limited - Game",
     location: "Bengaluru, Karnataka",
     description:
       "Working in a team on production-scale gaming and AI platforms, including mid-core games, AI-driven gaming apps, and a micro-drama product. Contribute to backend systems using Node.js, Redis, and WebSockets, build internal tools used by game developers and designers, develop AI-powered performance insights using Gemini, and implement data pipelines to move large-scale analytics data from Mixpanel to Google Cloud Storage and BigQuery.",
@@ -117,6 +119,21 @@ export const projectsData = [
     tags: ["React", "OpenAI", "Node", "Express", "Tailwind", "Framer-Motion"],
     imageUrl: gretaImg,
     link: "https://greta.questera.ai/",
+  },
+  {
+    title: "Mixpanel_AI — AI Product Analytics",
+    description:
+      "AI-powered product analytics system that uses LangGraph and Gemini to analyze Mixpanel data and generate actionable insights on user retention, funnels, and behavior.",
+    tags: [
+      "React",
+      "Gemini",
+      "FastAPI",
+      "Tailwind",
+      "Framer-Motion",
+      "Google Cloud Platform",
+    ],
+    imageUrl: mixpanelImg,
+    link: "https://terra-analytics-ui-v5.vercel.app/",
   },
 ] as const;
 
