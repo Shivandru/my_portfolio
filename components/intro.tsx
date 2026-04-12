@@ -63,19 +63,19 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I’m Shivandru.</span> I’m a{" "}
         <span className="font-bold">Full-Stack MERN Developer</span> with{" "}
-        <span className="font-bold">10 months</span> of experience, currently
+        <span className="font-bold">more than 1 year 6 months</span> of experience, currently
         working as a <span className="font-bold">Backend Developer</span> in the{" "}
         <span className="italic">game development</span> space. I build
         scalable, real-time systems using{" "}
-        <span className="underline">Node.js, Redis, WebSockets</span>, and craft
+        <span className="underline">Node.js, Redis, BullMQ, WebSockets</span>, and craft
         modern interfaces with{" "}
-        <span className="underline">React and Next.js</span>. I also work with{" "}
+        <span className="underline">React, Next.js and Flutter</span>. I also work with{" "}
         <span className="underline">AI-driven systems</span> using OpenAI,
         Gemini, and LangGraph.
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
