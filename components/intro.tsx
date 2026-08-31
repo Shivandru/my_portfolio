@@ -63,15 +63,20 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I’m Shivandru.</span> I’m a{" "}
         <span className="font-bold">Full-Stack MERN Developer</span> with{" "}
-        <span className="font-bold">more than 1 year 6 months</span> of experience, currently
-        working as a <span className="font-bold">Backend Developer</span> in the{" "}
+        <span className="font-bold">more than 2 years</span> of
+        experience, currently working as a{" "}
+        <span className="font-bold">Backend Developer</span> in the{" "}
         <span className="italic">game development</span> space. I build
         scalable, real-time systems using{" "}
-        <span className="underline">Node.js, Redis, BullMQ, WebSockets</span>, and craft
-        modern interfaces with{" "}
-        <span className="underline">React, Next.js and Flutter</span>. I also work with{" "}
-        <span className="underline">AI-driven systems</span> using OpenAI,
-        Gemini, and LangGraph.
+        <span className="underline">Node.js, Redis, BullMQ, WebSockets</span>,
+        and craft modern interfaces with{" "}
+        <span className="underline">React, Next.js and Flutter</span>. I also
+        work with <span className="underline">AI-driven systems</span> using{" "}
+        <span className="underline">
+          OpenAI, Gemini, Seedance, and LangGraph
+        </span>
+        , and use AI coding tools such as{" "}
+        <span className="underline">Claude Code and Codex</span>.
       </motion.h1>
 
       <motion.div

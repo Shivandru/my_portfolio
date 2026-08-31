@@ -18,6 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
+
       <p className="mb-3">
         After graduating with a degree in{" "}
         <span className="font-medium">Mechanical Engineering</span>, I developed
@@ -25,9 +26,10 @@ export default function About() {
         grew into a{" "}
         <span className="font-medium">Full-Stack MERN Developer</span> and
         started working with{" "}
-        <span className="font-medium">AI-driven systems</span> using models like
-        OpenAI, Claude, and Gemini. I enjoy solving real-world problems through
-        code and building scalable, user-focused applications.
+        <span className="font-medium">AI-driven systems</span> using platforms
+        and models like OpenAI, Gemini, Seedance, and Claude. I enjoy solving
+        real-world problems through code and building scalable, user-focused
+        applications.
       </p>
 
       <p className="mb-3">
@@ -35,8 +37,13 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, MongoDB, and TypeScript
         </span>
-        , and I currently work more on the backend, building real-time and
-        data-driven systems using Redis, WebSockets, and cloud services.
+        , and I currently focus more on backend development, building real-time
+        and data-driven systems using{" "}
+        <span className="font-medium">
+          Redis, WebSockets, BullMQ, and cloud services
+        </span>
+        . I also enjoy optimizing application performance and designing
+        efficient system architectures.
       </p>
 
       <p>
