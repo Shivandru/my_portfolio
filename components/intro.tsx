@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src={"/myPicNew.png"}
-              alt="Ricardo portrait"
+              alt="Shivandru portrait"
               width="192"
               height="192"
               quality="95"
@@ -62,21 +62,18 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I’m Shivandru.</span> I’m a{" "}
-        <span className="font-bold">Full-Stack MERN Developer</span> with{" "}
-        <span className="font-bold">more than 2 years</span> of
-        experience, currently working as a{" "}
-        <span className="font-bold">Backend Developer</span> in the{" "}
-        <span className="italic">game development</span> space. I build
-        scalable, real-time systems using{" "}
-        <span className="underline">Node.js, Redis, BullMQ, WebSockets</span>,
-        and craft modern interfaces with{" "}
-        <span className="underline">React, Next.js and Flutter</span>. I also
-        work with <span className="underline">AI-driven systems</span> using{" "}
+        <span className="font-bold">Full-Stack MERN Developer</span> and{" "}
+        <span className="font-bold">SDE-1</span> with{" "}
+        <span className="font-bold">2+ years</span> of
+        experience. I build scalable, real-time backend systems using{" "}
+        <span className="underline">Node.js, Redis, BullMQ, and WebSockets</span>,
+        and modern frontends with{" "}
+        <span className="underline">React, Next.js, and Flutter</span>. I also
+        engineer <span className="underline">AI-driven systems</span> using{" "}
         <span className="underline">
-          OpenAI, Gemini, Seedance, and LangGraph
+          LangGraph, FastAPI, OpenAI, and Gemini
         </span>
-        , and use AI coding tools such as{" "}
-        <span className="underline">Claude Code and Codex</span>.
+        , deployed on <span className="underline">GCP and AWS</span>.
       </motion.h1>
 
       <motion.div

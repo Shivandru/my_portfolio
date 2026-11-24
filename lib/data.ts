@@ -36,45 +36,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Mechanical Engineering",
-    location: "Sikkim Manipal Institue of Technology",
+    title: "Node.js Backend Developer (SDE-1)",
+    location: "TerraByte Technologies Private Limited — Bengaluru, Karnataka",
     description:
-      "Finished my mechanical‑engineering degree and spent some time preparing for PCS government exams.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Operations specialist",
-    location: "Remote",
-    description:
-      "Worked online for two years handling day‑to‑day operations and team support.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2024",
-  },
-  {
-    title: "Career Accelator Program by MASAI SCHOOL",
-    location: "remote",
-    description:
-      "Jump‑started my software journey: learned React, Next.js, Node.js, Express, MongoDB and TypeScript. Earned two scholarships and qualified for Masai placement drives.",
-    icon: React.createElement(FaReact),
-    date: "2023 - 2024",
-  },
-  {
-    title: "Full Stack Developer Intern, Questera - SaaS",
-    location: "Remote",
-    description:
-      "Spent 10 months building and improving web apps as a full‑stack developer intern.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024 - 2025",
-  },
-  {
-    title:
-      "Node.js Backend Developer, TerraByte Technologies Private Limited - Game",
-    location: "Bengaluru, Karnataka",
-    description:
-      "Working in a team on production-scale gaming and AI platforms, including mid-core games, AI-driven gaming apps, and a micro-drama product. Contribute to backend systems using Node.js, Redis, BullMQ, and WebSockets, build internal tools for game developers and designers, develop AI-powered performance insights using LangGraph and multiple LLMs including OpenAI and Gemini, and implement data pipelines to move large-scale analytics data from Mixpanel to Google Cloud Storage and BigQuery. Recently optimized application startup performance using a DAG-based initialization workflow by parallelizing independent startup tasks.",
+      "Scaled Terra from 5 to 2,000+ DAU (150K MAU) by redesigning backend architecture using Node.js, Redis (Pub/Sub), BullMQ, and WebSockets. Cut startup latency by designing a DAG-based initialization workflow parallelizing tasks. Built an AI insights system using LangGraph and multiple LLMs analyzing Mixpanel data, designed ETL pipelines moving 82M+ event records, and integrated Google Play Billing, App Store, Stripe, and Codapay payments.",
     icon: React.createElement(CgWorkAlt),
     date: "June 2025 – Present",
+  },
+  {
+    title: "Full-Stack Web Developer",
+    location: "Questera — Remote",
+    description:
+      "Built end-to-end SaaS products across frontend and backend using MERN, integrating LLMs to automate workflows. Developed and deployed 3+ production-ready features using Agile methodology, implementing RESTful APIs with Jest for unit testing to maintain 95%+ code coverage.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2024 – April 2025",
+  },
+  {
+    title: "Full-Stack Software Engineering",
+    location: "Masai School — Bengaluru, Karnataka",
+    description:
+      "Completed rigorous career accelerator program in full-stack software development: built end-to-end applications with React, Next.js, Node.js, Express, MongoDB, and TypeScript. Earned two scholarships and qualified for placement drives.",
+    icon: React.createElement(FaReact),
+    date: "2023 – 2024",
+  },
+  {
+    title: "B.Tech in Mechanical Engineering",
+    location: "Sikkim Manipal Institute of Technology — Majitar, Sikkim",
+    description:
+      "Completed Bachelor of Technology degree before transitioning into software engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Dec 2019",
   },
 ] as const;
 
@@ -82,7 +73,7 @@ export const projectsData = [
   {
     title: "Feedback Workflow App",
     description:
-      "Worked as a Frontend Developer on this project, my first at Questera. Built user-facing features for collecting public feedback for companies. The product was ranked #4 Product of the Day on Product Hunt.",
+      "Built user-facing feedback collection platform for companies. Integrated LLMs for automated workflow analysis. Ranked #4 Product of the Day on Product Hunt.",
     tags: [
       "React",
       "Tailwind",
@@ -97,15 +88,13 @@ export const projectsData = [
   {
     title: "Hive - Internal Team Management Tool",
     description:
-      "Developed an internal team management platform. This was my first end-to-end full-stack project at Questera and is actively used by the team for day-to-day operations.",
+      "Developed an end-to-end internal team management platform at Questera with role-based access, actively used by team members for operational workflows.",
     tags: [
       "React",
       "Node.js",
-      "Jotai",
       "Express",
       "MongoDB",
-      "@questlabs/react-sdk",
-      "Framer-Motion",
+      "Jotai",
       "Tailwind",
       "Mongoose",
     ],
@@ -115,8 +104,8 @@ export const projectsData = [
   {
     title: "Greta - AI Website Generator",
     description:
-      "Used OpenAI's 4.o model is used for creating websites. User would input a single prompt and it can generate and deploy the wesites.",
-    tags: ["React", "OpenAI", "Node", "Express", "Tailwind", "Framer-Motion"],
+      "AI-powered website generator built with MERN and OpenAI (GPT-4o). Generates, previews, and deploys responsive websites from natural language prompts.",
+    tags: ["React", "OpenAI", "Node.js", "Express", "Tailwind", "MERN"],
     imageUrl: gretaImg,
     link: "https://greta.questera.ai/",
   },
@@ -127,9 +116,9 @@ export const projectsData = [
     tags: [
       "React",
       "Gemini",
+      "LangGraph",
       "FastAPI",
       "Tailwind",
-      "Framer-Motion",
       "Google Cloud Platform",
     ],
     imageUrl: mixpanelImg,
@@ -137,36 +126,101 @@ export const projectsData = [
   },
 ] as const;
 
+export const skillsCategories = [
+  {
+    category: "Backend & Distributed Systems",
+    skills: [
+      "Node.js",
+      "Express",
+      "FastAPI",
+      "Python",
+      "MongoDB",
+      "Redis (Pub/Sub)",
+      "BullMQ",
+      "WebSockets",
+      "Firestore",
+      "REST APIs",
+      "Mongoose",
+    ],
+  },
+  {
+    category: "Frontend & Mobile",
+    skills: [
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "Flutter",
+      "Dart",
+      "Tailwind CSS",
+      "Redux",
+      "Shadcn",
+      "ChakraUI",
+      "HTML5 / CSS3",
+    ],
+  },
+  {
+    category: "Cloud, AI & Data",
+    skills: [
+      "Google Cloud Platform",
+      "LangGraph",
+      "OpenAI",
+      "Gemini",
+      "Anthropic Claude",
+      "BigQuery",
+      "Cloud Storage",
+      "ETL Pipelines",
+      "Seedance",
+    ],
+  },
+  {
+    category: "DevOps, Testing & Tools",
+    skills: [
+      "Docker",
+      "Jest (Unit Testing)",
+      "Git & GitHub",
+      "Sentry",
+      "Mixpanel",
+      "Firebase",
+      "Claude Code",
+      "Codex",
+      "Agile / Scrum",
+    ],
+  },
+] as const;
+
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "Python",
-  "Dart",
-  "React",
-  "Next.js",
-  "Flutter",
   "Node.js",
   "Express",
+  "React.js",
+  "Next.js",
+  "TypeScript",
+  "JavaScript",
+  "Python",
   "FastAPI",
   "MongoDB",
-  "Mongoose",
-  "Firestore",
   "Redis",
   "BullMQ",
   "WebSockets",
+  "Firestore",
   "Google Cloud Platform",
-  "Redux",
-  "Tailwind",
-  "Zod",
-  "Git",
-  "Framer Motion",
-  "OpenAI",
-  "Claude",
-  "Gemini",
-  "Seedance",
+  "BigQuery",
+  "Cloud Storage",
+  "Docker",
+  "Jest",
   "LangGraph",
+  "OpenAI",
+  "Gemini",
+  "Flutter",
+  "Dart",
+  "Tailwind",
+  "Redux",
+  "Shadcn",
+  "ChakraUI",
+  "Git",
+  "Sentry",
+  "Mixpanel",
+  "Firebase",
   "Claude Code",
   "Codex",
 ] as const;

@@ -21,36 +21,28 @@ export default function About() {
 
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Mechanical Engineering</span>, I developed
-        a strong interest in technology and began learning to code. Over time, I
-        grew into a{" "}
-        <span className="font-medium">Full-Stack MERN Developer</span> and
-        started working with{" "}
-        <span className="font-medium">AI-driven systems</span> using platforms
-        and models like OpenAI, Gemini, Seedance, and Claude. I enjoy solving
-        real-world problems through code and building scalable, user-focused
-        applications.
+        <span className="font-medium">Mechanical Engineering</span>, I transitioned
+        into software engineering through a rigorous full-stack curriculum. Today, I work as an{" "}
+        <span className="font-medium">SDE-1 / Full-Stack MERN Developer</span>,
+        building high-throughput architectures and AI-driven platforms.
       </p>
 
       <p className="mb-3">
-        My core stack includes{" "}
+        My core stack covers{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, MongoDB, and TypeScript
+          Node.js, Express, React, Next.js, TypeScript, and MongoDB / Firestore
         </span>
-        , and I currently focus more on backend development, building real-time
-        and data-driven systems using{" "}
+        . On the backend, I specialize in high-concurrency, real-time distributed systems with{" "}
         <span className="font-medium">
-          Redis, WebSockets, BullMQ, and cloud services
+          Redis (Pub/Sub), WebSockets, BullMQ, and FastAPI
         </span>
-        . I also enjoy optimizing application performance and designing
-        efficient system architectures.
+        — scaling products to 2,000+ DAU (150K MAU), designing DAG-based startup workflows, and implementing ETL pipelines moving 82M+ event records.
       </p>
 
       <p>
-        <span className="italic">When I’m not coding</span>, you’ll usually find
-        me at the gym, cooking something new, or playing video games. I also
-        enjoy exploring new ideas and staying up to date with developments in
-        tech and AI.
+        I also build production AI agents using{" "}
+        <span className="font-medium">LangGraph, OpenAI, and Gemini</span>, and adhere to strict engineering hygiene with{" "}
+        <span className="font-medium">Jest (95%+ unit test coverage)</span>. Outside of code, you’ll find me at the gym, cooking, or exploring the latest developments in AI and cloud systems.
       </p>
     </motion.section>
   );

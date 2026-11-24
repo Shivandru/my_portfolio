@@ -10,27 +10,37 @@ import SectionHeading from "./section-heading";
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
   const [isLoading, setIsLoading] = useState(false);
-  const onSubmit = async (event: any) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     setIsLoading(true);
-    const formData = new FormData(event.target);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
 
-    formData.append("access_key", "4ea35cd4-7a57-46c6-a841-34d41fe439aa");
+    formData.append(
+      "access_key",
+      process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY ||
+        "4ea35cd4-7a57-46c6-a841-34d41fe439aa"
+    );
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
 
-    const data = await response.json();
+      const data = await response.json();
 
-    if (data.success) {
-      toast.success("Email sent successfully! ✅");
-      event.target.reset();
-      setIsLoading(false);
-    } else {
+      if (data.success) {
+        toast.success("Email sent successfully! ✅");
+        form.reset();
+      } else {
+        toast.error("Network error, please try again.");
+        console.error("Web3Forms submission failed:", data);
+      }
+    } catch (error) {
       toast.error("Network error, please try again.");
-      console.log("Error", data);
+      console.error("Contact submission error:", error);
+    } finally {
       setIsLoading(false);
     }
   };
